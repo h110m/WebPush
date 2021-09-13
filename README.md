@@ -37,6 +37,12 @@ cd .. && npm start
 <br />
 <br />
 
+## How to use
+You can just go to http://localhost:80 to access the website and register a webworker for your notifications.
+When the registration is successfull you will get an ID that you can use to make a `GET` request to http://localhost:80/sub/{ID} which will send a [predefined hardcoded message](https://github.com/h110m/WebPush/blob/7d1b64c8b0f6ac9a48d5c68f3c7bfd919111730b/API/backend.js#L39) to the device with the given ID
+<br />
+<br />
+
 ## About this project
 Well... uhm... i was just tinkering around with the web push notification api and "accidentally" wrote a neat little example on how to use the web push notification api.
 
