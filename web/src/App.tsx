@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import WebPush from "./API/frontend";
 
@@ -88,34 +87,6 @@ export default class App extends React.Component<IAppProps, IAppState> {
               />
             </div>
           )}
-          <br />
-          <br />
-          <button
-            style={{
-              border: "none",
-              borderRadius: ".25rem",
-              backgroundColor: "#626567",
-              color: "white",
-              padding: "10px 15px",
-            }}
-            onClick={() => alert("Success")}
-          >
-            Test 1
-          </button>
-          <br />
-
-          <button
-            style={{
-              border: "none",
-              borderRadius: ".25rem",
-              backgroundColor: "#626567",
-              color: "white",
-              padding: "10px 15px",
-            }}
-            onTouchEnd={() => alert("Success")}
-          >
-            Test 2
-          </button>
         </header>
       </div>
     );

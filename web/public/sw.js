@@ -7,7 +7,7 @@ function receivePushNotification(event) {
     data: url,
     body: text,
     icon: image,
-    vibrate: [200, 100, 200],
+    vibrate: [200, 100, 200, 100, 200, 100, 200],
     tag: tag,
     image: image,
     badge: "https://spyna.it/icons/favicon.ico",
